@@ -10,7 +10,7 @@ gulp.task('clean', function(done) {
 });
 
 gulp.task('build', ['clean'], function() {
-  return gulp.src('./src/pages/**/*')
+  return gulp.src(['./src/pages/**/*', './src/images/**/*'])
     .pipe(ssg({
       jadeOptions: {
         pretty: true
