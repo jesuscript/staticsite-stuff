@@ -1,3 +1,7 @@
+# Disparity
+
+A scalable multi-chain consensus network protocol.
+
 ### Disparity ELI18
 
 Disparity is an attempt to solve scalability through a multi-chain framework. This multichain system would include legacy chains like Ethereum and Bitcoin - but also new child chains.
