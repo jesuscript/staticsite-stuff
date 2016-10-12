@@ -14,7 +14,7 @@ In order for a Master chain validator to check the validity of a state transitio
 
 The Master Blockchain has very little actual functionality, beyond being able to transfer the tokens which back the chain. The chains main function is to create a canonical history of its own state changes and the state changes of the child chains.
 
-As a system Disparity would bring multiple kinds of blockchain into one large network, with pooled security.
+As a system, Disparity would bring multiple kinds of blockchain into one large network, with pooled security.
 
 ### Character Creation:
 
@@ -24,15 +24,15 @@ These are public network token holders - they delegate a validator and trust the
 
 ##### Validators
 
-These guys validate both the master chain and a subset of Child chains. They are bonded by their tokens, or the tokens of their delegators.
+These actors validate both the master chain and a subset of Child chains. They are bonded by their tokens, or the tokens of their delegators.
 
 ##### Collators
 
 Collators run a full node of an underlying child chain and help validators by passing them blocks for them to validate. They also monitor for new transactions from both chain users and other chains.
 
-##### Fisherman
+##### Fishermen
 
-These guys monitor the network for invalid blocks which have been declared valid. When this happens they are able to submit a proof that a block is invalid to capture a reward from the bonded validators.
+These actors monitor the network for invalid blocks which have been declared valid. When this happens they are able to submit a proof that a block is invalid to capture a reward from the bonded validators.
 
 ### Network in a nutshell: big, fast, spartan and extensible.
 
